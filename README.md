@@ -35,16 +35,7 @@ The React app was already set up when you ran `npx create-react-app roomfinderth
 
 ### Configuring the Project
 
-1. **Add the following script to your `package.json` file**:
-
-```json
-"scripts": {
-  "start": "node index.js",
-  "build": "react-scripts build"
-}
-```
-
-2. **Run `npm start`**: Run this command in your terminal to start your app in development mode.
+**Run `npm start`**: Run this command in your terminal to start your app in development mode.
 
 ### Testing the PWA
 
