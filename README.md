@@ -1,3 +1,5 @@
+Here is the updated README.md:
+
 # **Getting Started with Progressive Web Apps (PWAs) and React**
 
 ### Prerequisites
@@ -10,7 +12,7 @@
 
 1. **Node.js**: Make sure you have Node.js installed on your machine. You can download it from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 2. **npm**: Install npm, the package manager for Node.js, by running `npm install -g npm@latest` in your terminal.
-3. **create-react-app**: Install create-react-app, a tool that makes it easy to set up new React projects, by running `npx create-react-app my-pwa` (replace "my-pwa" with your desired app name).
+3. **create-react-app**: Install create-react-app, a tool that makes it easy to set up new React projects, by running `npx create-react-app roomfinderthk`.
 
 ### Setting Up the Project
 
@@ -24,33 +26,12 @@
 
 ```javascript
 import { register } from 'react-pwa';
-
 register();
 ```
 
 ### Creating the React App
 
-1. **Create a new file called `index.js`**: In the root of your project directory, create a new file called `index.js`.
-2. **Add the following code to `index.js`**:
-
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-
-const App = () => {
-  return (
-    <BrowserRouter>
-      <div>
-        <h1>Welcome to my PWA!</h1>
-        <p>This is a simple Progressive Web App.</p>
-      </div>
-    </BrowserRouter>
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
-```
+The React app was already set up when you ran `npx create-react-app roomfinderthk`. You can modify the files in the `src` directory to add your own code and functionality.
 
 ### Configuring the Project
 
@@ -75,5 +56,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 * React-PWA documentation: [https://react-pwa.netlify.app/](https://react-pwa.netlify.app/)
 * A basic guide to PWAs with React: [https://www.smashingmagazine.com/2019/02/building-progressive-web-apps-react/](https://www.smashingmagazine.com/2019/02/building-progressive-web-apps-react/)
 * A more advanced tutorial on building a PWA with React: [https://dev.to/herringtondarkholme/building-a-progressive-web-app-with-react-and-webpack-3o5l](https://dev.to/herringtondarkholme/building-a-progressive-web-app-with-react-and-webpack-3o5l)
-
-I hope this helps! Let me know if you have any questions or need further assistance.
+  I hope this helps! Let me know if you have any questions or need further assistance.
