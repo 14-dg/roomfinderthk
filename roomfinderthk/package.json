@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:network": "HOST=0.0.0.0 react-scripts start",
+    "start:network": "cross-env HOST=0.0.0.0 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "react-pwa": "^0.0.1"
   }
 }
